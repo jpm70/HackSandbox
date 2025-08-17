@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reto 9: El Cifrado Vigenère</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="challenge-container">
+        <h1>Reto 9: El Cifrado Vigenère</h1>
+        <p>Un mensaje ha sido cifrado con una clave secreta. Encuentra la clave y descifra el mensaje.</p>
+        
+        <div class="encoded-message">
+            <p>Xyv kfymu is xyv fymu_jcyz_is_vyrf_dxy_qyif</p>
+        </div>
+
+        <div class="solution-area">
+            <input type="text" id="flagInput" placeholder="Introduce la flag descifrada...">
+            <button onclick="checkFlag()">Verificar</button>
+        </div>
+        
+        <p id="feedbackMessage"></p>
+    </div>
+    
+    <script src="reto9_script.js"></script>
+</body>
+</html>

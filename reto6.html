@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reto 6: El Misterio del CSS Oculto</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* La flag está oculta en los comentarios del CSS. */
+        /* La f-l-a-g es flag_not_all_secrets_are_visible */
+        body {
+            background-color: #0d1117;
+        }
+
+        /* Y un mensaje en una propiedad CSS */
+        .hint::after {
+            content: "¡Mira el código fuente de los estilos!";
+            /* La pista está aquí: flag_in_css_file */
+        }
+    </style>
+</head>
+<body>
+    <div class="challenge-container">
+        <h1>Reto 6: El Misterio del CSS Oculto</h1>
+        <p>No confíes en lo que ves. A veces, los secretos están en el estilo.</p>
+        <div class="hint"></div>
+
+        <div class="solution-area">
+            <input type="text" id="flagInput" placeholder="Introduce la flag aquí...">
+            <button onclick="checkFlag()">Verificar</button>
+        </div>
+        
+        <p id="feedbackMessage"></p>
+    </div>
+    
+    <script src="reto6_script.js"></script>
+</body>
+</html>

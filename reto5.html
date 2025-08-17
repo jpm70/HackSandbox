@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reto 5: El Secreto de las Cookies</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="challenge-container">
+        <h1>Reto 5: El Secreto de las Cookies</h1>
+        <p>Parece que eres un usuario normal. ¿Podrías ser un administrador?</p>
+        <p>Una pista: la clave está en el estado de tu sesión.</p>
+
+        <div class="user-info">
+            <p>Estado de usuario: <span id="userStatus">Normal</span></p>
+        </div>
+
+        <div class="solution-area">
+            <input type="text" id="flagInput" placeholder="Introduce la flag aquí...">
+            <button onclick="checkFlag()">Verificar</button>
+        </div>
+        
+        <p id="feedbackMessage"></p>
+    </div>
+    
+    <script src="reto5_script.js"></script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reto 10: La Lógica Invertida</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="challenge-container">
+        <h1>Reto 10: La Lógica Invertida</h1>
+        <p>Un programa protege un mensaje secreto. ¡Asegúrate de que la condición sea la correcta!</p>
+        
+        <div id="flag-container">
+            <p>La bandera se mostrará aquí cuando la condición sea verdadera.</p>
+        </div>
+
+        <div class="solution-area">
+            <input type="text" id="flagInput" placeholder="Introduce la flag descifrada...">
+            <button onclick="checkFlag()">Verificar</button>
+        </div>
+        
+        <p id="feedbackMessage"></p>
+    </div>
+    
+    <script src="reto10_script.js"></script>
+</body>
+</html>

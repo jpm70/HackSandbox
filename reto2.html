@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reto 2: El Secreto del Inspector</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="challenge-container">
+        <h1>Reto 2: El Secreto del Inspector</h1>
+        <p>Parece una página simple. Pero el verdadero mensaje no se ve a simple vista.</p>
+        <p>Usa tus herramientas de desarrollador para encontrar la clave.</p>
+        
+        <div class="hidden-flag" style="display: none;">
+            <p>La flag es flag_inspector_mode_on</p>
+        </div>
+
+        <div class="solution-area">
+            <input type="text" id="flagInput" placeholder="Introduce la flag aquí...">
+            <button onclick="checkFlag()">Verificar</button>
+        </div>
+        
+        <p id="feedbackMessage"></p>
+    </div>
+    
+    <script src="reto2_script.js"></script>
+</body>
+</html>
