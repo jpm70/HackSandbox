@@ -2,14 +2,10 @@ body {
     font-family: 'Segoe UI', Arial, sans-serif;
     background-color: #0d1117;
     color: #c9d1d9;
-    /* Elimina las propiedades de flexbox que centran todo el contenido */
-    /* display: flex; */
-    /* justify-content: center; */
-    /* align-items: center; */
     min-height: 100vh;
     margin: 0;
     line-height: 1.6;
-    padding: 20px; /* Agrega un padding para que no se pegue a los bordes */
+    padding: 20px;
 }
 
 .container {
@@ -20,15 +16,16 @@ body {
     width: 90%;
     max-width: 800px;
     text-align: center;
-    margin: 0 auto; /* Centra el contenedor principal */
+    margin: 0 auto;
 }
 
 .header {
     margin-bottom: 30px;
 }
 
+/* Regla corregida para el logo */
 .logo {
-    width: 150px; /* Ajusta el tamaño para que coincida con los otros logos */
+    width: 150px;
     height: auto;
     margin-bottom: 20px;
 }
